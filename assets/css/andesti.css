@@ -976,7 +976,7 @@ ul {
 .main-header-two__top-left .text {
     position: relative;
     display: block;
-    padding-left: 15px;
+    padding-left: 95px;
 }
 
 .main-header-two__top-left .text p {
@@ -6424,7 +6424,7 @@ ul {
 
 .services-single__title-text {
     color: rgba(24, 21, 44, 0.9);
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     margin: 0;
 }
