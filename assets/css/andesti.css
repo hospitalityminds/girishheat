@@ -23,7 +23,7 @@
     --thm-font: 'Saira Extra Condensed', sans-serif;
     --thm-gray: #737373;
     --thm-gray-rgb: 115, 115, 115;
-    --thm-primary: #fa401b;
+    --thm-primary: #e30016;
     --thm-primary-rgb: 250, 64, 27;
     --thm-black: #18152c;
     --thm-black-rgb: 24, 21, 44;
@@ -2439,7 +2439,7 @@ ul {
 }
 
 .counter-one__single-text--orange {
-    color: #fa401b;
+    color: #e30016;
 }
 
 .counter-one__single-text--yellow {
@@ -3338,7 +3338,7 @@ ul {
     display: block;
     width: 55px;
     height: 55px;
-    background: #fa401b;
+    background: #e30016;
     border-radius: 50%;
     font-size: 22px;
     line-height: 55px;
@@ -3539,7 +3539,7 @@ ul {
 }
 
 .team-one__title-holder-title {
-    color: #fa401b;
+    color: #e30016;
     margin: 0;
     margin-bottom: 16px;
 }
@@ -3908,7 +3908,7 @@ ul {
     position: relative;
     display: block;
     overflow: hidden;
-    background: #fa401b;
+    background: #e30016;
     z-index: 1;
 }
 
@@ -6610,7 +6610,7 @@ ul {
 }
 
 #scrollbar1 .thumb {
-    background: #fa401b;
+    background: #e30016;
     background-image: none;
     height: 20px;
     width: 4px;
