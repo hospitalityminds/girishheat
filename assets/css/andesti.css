@@ -2510,13 +2510,13 @@ ul {
 .services-one__icon {
     position: relative;
     display: block;
-    font-size: 50px;
-    line-height: 100px;
+    /* font-size: 50px;
+    line-height: 100px; */
     width: 100px;
     height: 100px;
     background: #ffffff;
     border-radius: 50%;
-    border: 1px solid #f0efee;
+    /* border: 1px solid #f0efee; */
     margin: 0 auto;
     margin-bottom: 21px;
     z-index: 10;
