@@ -383,6 +383,22 @@ ul {
     background: #192d66;
 }
 
+#more {
+    display: none;
+}
+
+#myBtn {
+    background: none!important;
+    border: none;
+    padding: 0px 0px 5px 0px!important;
+    /*optional*/
+    /* font-family: arial, sans-serif; */
+    /*input has OS specific font-family*/
+    color: crimson;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .main-header-one__top-inner {
     position: relative;
     display: -webkit-box;
