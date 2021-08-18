@@ -471,6 +471,26 @@ ul {
     margin: 0;
 }
 
+.main-header-one__top-right .icon {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.main-header-one__top-right .icon span::before {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.main-header-one__top-right .text p a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 500ms ease;
+}
+
+.main-header-one__top-right .text p a:hover {
+    color: #fff;
+}
+
 .cart-btn-1 {
     position: relative;
     display: block;
@@ -871,6 +891,13 @@ ul {
 @media (min-width: 1200px) {
     .main-menu .mobile-nav__toggler {
         display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .common {
+        width: 92%;
+        max-width: 92%
     }
 }
 
@@ -2097,6 +2124,76 @@ ul {
 
 .main-slider .swiper-slide-active .image-layer {
     transform: scale(1.3);
+}
+
+.marquee-panel {
+    width: 100%;
+    float: left;
+    max-height: 47px;
+    background: #d92117;
+    padding: 0px;
+    margin: 0px;
+}
+
+.common {
+    margin: 0 auto;
+    width: 96%;
+    max-width: 1170px;
+}
+
+.common {
+    max-width: 1160px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.marquee-wrap {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    font-size: 16px;
+    height: 47px;
+    line-height: 47px;
+    color: #FFF;
+}
+
+.updates {
+    display: inline-block;
+    float: left;
+    margin-right: 40px;
+    background: url(../images/resources/update-bg.png) no-repeat 8px 8px #77120d;
+    padding: 0px 5px 0px 52px;
+    position: relative;
+}
+
+.updates:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 23.5px 0 23.5px 20px;
+    border-color: transparent transparent transparent #77120d;
+    position: absolute;
+    right: -20px;
+}
+
+.marquee {
+    width: calc(100% - 160px);
+    overflow: hidden;
+    float: left;
+}
+
+.marquee span {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.marquee span.last {
+    margin-right: 0px;
+}
+
+.marquee {
+    width: calc(100% - 105px);
 }
 
 

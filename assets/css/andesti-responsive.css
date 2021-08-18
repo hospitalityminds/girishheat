@@ -1113,7 +1113,7 @@ display: none;
     bottom: 0;
 }
 .main-header-one__top {
-    display: none;
+    /* display: none; */
 }
 .main-menu__inner .right {
     display: none;
