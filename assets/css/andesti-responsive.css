@@ -24,8 +24,14 @@
     .project-one__overly-title h2 br {
         display: none;
     }
-    .mobilemarq {
+    /* .mobilemarq {
         visibility: hidden;
+    } */
+    .updateclass {
+        margin-left: 8%;
+    }
+    .naviclass {
+        display: none;
     }
 }
 
@@ -49,8 +55,14 @@
 /** Medium screen**/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .mobilemarq {
+    /* .mobilemarq {
         visibility: hidden;
+    } */
+    .naviclass {
+        display: none;
+    }
+    .updateclass {
+        margin-left: 8%;
     }
     /**About One Css**/
     .about-one {
@@ -426,8 +438,14 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .mobilemarq {
+    /* .mobilemarq {
         visibility: hidden;
+    } */
+    .naviclass {
+        display: none;
+    }
+    .updateclass {
+        margin-left: 8%;
     }
     /** About One Css**/
     .about-one {
@@ -929,9 +947,15 @@
 /** Mobile Layout: 320px. **/
 
 @media only screen and (max-width: 767px) {
-    .marq {
-        visibility: hidden;
+    .slidedots {
+        display: none;
     }
+    .about-one__bottom-box {
+        display: none !important;
+    }
+    /* .marq {
+        visibility: hidden;
+    } */
     .section-title__title {
         font-size: 40px;
         line-height: 50px;
@@ -1700,7 +1724,7 @@
 
 @media only screen and (max-width: 767px) {
     .main-slider-one {
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .main-slider h2 {
         margin-top: 25px;

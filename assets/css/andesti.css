@@ -222,8 +222,7 @@ ul {
 }
 
 .section-title {
-    margin-top: -8px;
-    margin-bottom: 61px;
+    margin-bottom: 7%;
 }
 
 .section-title__tagline {
@@ -2604,7 +2603,7 @@ marquee {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 116px 0px 90px;
+    padding: 4% 0px 4%;
 }
 
 .services-one .shape2 {
